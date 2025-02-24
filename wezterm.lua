@@ -48,7 +48,9 @@ config.keys = {
 	{
 		key = "s",
 		mods = "CTRL",
-		action = act.PaneSelect,
+		action = act.PaneSelect({
+			alphabet = "1234567890",
+		}),
 	},
 
 	-- Split pane
