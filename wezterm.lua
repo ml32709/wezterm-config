@@ -49,7 +49,7 @@ config.keys = {
 		key = "s",
 		mods = "CTRL",
 		action = act.PaneSelect({
-			alphabet = "1234567890",
+			alphabet = "hjkl",
 		}),
 	},
 
@@ -90,22 +90,22 @@ config.keys = {
 	-- Resize pane
 	{
 		key = "h",
-		mods = "CTRL | SHIFT | ALT",
+		mods = "CTRL | ALT",
 		action = act.AdjustPaneSize({ "Left", 5 }),
 	},
 	{
 		key = "j",
-		mods = "CTRL | SHIFT | ALT",
+		mods = "CTRL | ALT",
 		action = act.AdjustPaneSize({ "Down", 5 }),
 	},
 	{
 		key = "k",
-		mods = "CTRL | SHIFT | ALT",
+		mods = "CTRL | ALT",
 		action = act.AdjustPaneSize({ "Up", 5 }),
 	},
 	{
 		key = "l",
-		mods = "CTRL | SHIFT | ALT",
+		mods = "CTRL | ALT",
 		action = act.AdjustPaneSize({ "Right", 5 }),
 	},
 }
