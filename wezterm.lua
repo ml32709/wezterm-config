@@ -8,7 +8,7 @@ local config = wezterm.config_builder()
 -- Config settings
 
 -- Startup
-config.default_prog = { "powershell.exe", "-NoLogo" }
+config.default_prog = { "/bin/bash", "-l" }
 config.front_end = "OpenGL"
 config.max_fps = 60
 
