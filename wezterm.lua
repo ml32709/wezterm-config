@@ -14,7 +14,7 @@ config.max_fps = 60
 
 -- Window stuff
 config.window_decorations = "NONE | RESIZE"
-config.window_background_opacity = 0.7
+config.window_background_opacity = 0.8
 
 -- Colors
 config.color_scheme = "Bamboo"
@@ -29,7 +29,7 @@ config.keys = {
 		action = wezterm.action_callback(function(window, _)
 			local overrides = window:get_config_overrides() or {}
 			if overrides.window_background_opacity == 1.0 then
-				overrides.window_background_opacity = 0.7
+				overrides.window_background_opacity = 0.8
 			else
 				overrides.window_background_opacity = 1.0
 			end
